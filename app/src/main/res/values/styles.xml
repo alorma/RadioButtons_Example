@@ -1,0 +1,39 @@
+<resources>
+
+  <style name="AppTheme"
+         parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="radioButtonStyle">@style/elmeutema_style</item>
+    <item name="elradiobuttonraret">@style/red_radio_style</item>
+  </style>
+
+  <style name="elmeutema_style"
+         parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
+    <item name="colorAccent">#0000FF</item>
+    <item name="android:textColorSecondary">#ff0000</item>
+  </style>
+
+
+  <style name="red_radio_style"
+         parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
+    <item name="colorAccent">#ff0000</item>
+    <item name="android:textColorSecondary">#760e0e</item>
+  </style>
+
+
+  <style name="elmeutema">
+    <item name="colorAccent">#0000FF</item>
+    <item name="android:textColorSecondary">#ff0000</item>
+  </style>
+
+
+  <style name="red_radio">
+    <item name="colorAccent">#ff0000</item>
+    <item name="android:textColorSecondary">#760e0e</item>
+  </style>
+
+
+</resources>
